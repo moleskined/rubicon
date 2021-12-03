@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Rubicon — a Caesar cipher plaintext solver"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
@@ -24,20 +24,34 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Rubicon</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <header>
+      <h1>Rubicon — a Caesar cipher plaintext solver</p>
+    </header>
+    <main>
+      <p>
+        This is a simple utility to aid in finding the plaintext from a given ciphertext and identify
+        the <i>shift-by-n</i> value used to encrypt the original plaintext.
+      </p>
+      <aside>
+        <p>A Caesar cipher is a type of substitution 
+        cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions 
+        down the alphabet. <cite><a href="#Z3988">(‘Caesar cipher - Wikipedia’ n.d.)</a></cite></p>
+      </aside>
+      <noscript>You need to enable JavaScript to run this app.</noscript>
+      <div id="root"></div>
+    </main>
+    <footer>
+      <ol>
+        <li id="Z3988">
+          <div class="csl-entry">‘Caesar cipher - Wikipedia’, viewed 3 December 2021, &lt;<a
+              href="https://en.wikipedia.org/wiki/Caesar_cipher">https://en.wikipedia.org/wiki/Caesar_cipher</a>&gt;.</div>
+          <span class="Z3988"
+            title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=webpage&amp;rft.title=Caesar%20cipher%20-%20Wikipedia&amp;rft.identifier=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCaesar_cipher"></span>
+        </li>
+      </ol>
+    </footer>
   </body>
 </html>

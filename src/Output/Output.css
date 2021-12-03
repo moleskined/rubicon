@@ -1,0 +1,25 @@
+output {
+  margin: 1rem 0;
+  display: block;
+}
+
+output table {
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+output table td {
+  border: 1px solid gray;
+  text-align: center;
+}
+
+output table .shift-by {
+  width: 2rem;
+  vertical-align: top;
+}
+
+output caption {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}

@@ -1,0 +1,24 @@
+fieldset {
+  border: 1px solid;
+  border-radius: 0.25rem;
+  margin: 0 auto;
+}
+
+fieldset legend {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+fieldset label input {
+  margin-left: 1rem;
+}
+
+fieldset label > span {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+details {
+  font-size: 80%;
+  margin-top: 1rem;
+}
