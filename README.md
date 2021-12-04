@@ -10,6 +10,9 @@ This is a simple utility to aid in finding the plaintext from a given ciphertext
 ## Running
 
 ```
+git clone https://github.com/moleskined/rubicon.git
+cd rubicon
+npm install
 npm start
 ```
 

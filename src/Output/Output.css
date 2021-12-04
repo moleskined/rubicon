@@ -19,6 +19,15 @@ output table .shift-by {
   vertical-align: top;
 }
 
+output table th {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 80%;
+  text-align: right;
+  color: #660000;
+  min-width: 2rem;
+}
+
 output caption {
   font-size: 0.8rem;
   text-transform: uppercase;

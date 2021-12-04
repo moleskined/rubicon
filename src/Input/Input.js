@@ -63,7 +63,7 @@ class Input extends React.Component {
             <input
               type="radio"
               name="direction"
-              value="0"
+              value="-1"
               defaultChecked={direction === -1}
               onChange={ this.handleInputChange }
             />
